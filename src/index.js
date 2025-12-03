@@ -223,9 +223,9 @@ app.get("/usuario", async (req, res) => {
 app.get("/saveFirebase", async (req, res) => {
     try {
         const docRef = await db.collection("users").add({
-            nombre: "Esteban Alejandro",
-            apellido: "Perez Coronel",
-            correo: "eaperezc@ufpso.edu.co",
+            nombre: "Sheila Silvana",
+            apellido: "Ropero Martinez",
+            correo: "ssroperom@ufpso.edu.co",
             fechaCreacion: new Date().toISOString()
         });
 
